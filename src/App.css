@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.Main {
+  width: 100%;
+  height: 100%;
+}
+
+.Header {
+  background-color: #222;
+  height: 80px;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  position: fixed;
+}
+
+.App-title {
+  margin: 10px auto;
+}
+
+.App-subtitle {
+  margin: 5px auto;
+}
+
+.MapContainer {
+  width: 70%;
+  height: calc(100% - 100px);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
+.LocationList {
+  width: 30%;
+  float: right;
+  overflow: scroll;
+  margin-top: 100px;
+}
+
+.LocationItem {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: #222f3e;
+  padding: 5px 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.LocationItem:hover {
+  background: #576574;
+}
+
+.LocationItem + .LocationItem {
+  border-top: 1px solid #576574;
+}
+
+.LocationItem p {
+  margin: 5px 0;
+}
+.LocationItem h3 {
+  margin: 10px 0;
+}
